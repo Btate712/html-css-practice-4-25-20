@@ -1,0 +1,11 @@
+nav {
+  position: fixed;
+  top: 10px;
+}
+
+.nav-link {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 5px;
+}
