@@ -1,20 +1,30 @@
+body {
+  background-color: #333;
+}
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
-  background-color: #333;
+  background-color: #222;
 }
 
 .nav-link {
-  color: white;
+  color: #ddd;
   text-decoration: none;
   padding: 15px;
   float: left;
+  display: block;
   border-radius: 10px;
 }
 
 .nav-link:hover {
   background-color: #444;
+}
+
+main {
+  color: #ddd;
+  margin-top: 50px;
 }
