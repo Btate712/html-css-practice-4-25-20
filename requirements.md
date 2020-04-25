@@ -1,5 +1,5 @@
 Site will include:
-- [ ] contact link
+- [x] contact link
 - [ ] about page
 - [ ] link to quiz app
 - [x] fixed nav bar

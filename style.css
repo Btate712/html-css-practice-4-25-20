@@ -34,5 +34,18 @@ main {
 #face-photo {
   height: 200px;
   border-radius: 10px;
-  float: right;
+  float: left;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #444;
+}
+
+#intro {
+  padding: 20px;
 }
