@@ -1,11 +1,15 @@
 nav {
   position: fixed;
-  top: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: slategray;
+  height: 20px;
 }
 
 .nav-link {
-  color: black;
-  border: 1px solid black;
+  color: white;
   text-decoration: none;
-  padding: 5px;
+  padding: 10px;
 }
