@@ -59,3 +59,38 @@ a:hover {
   padding-top: 50px;
   text-align: center;
 }
+
+.centered-heading {
+  text-align: center;
+}
+
+h1.centered-heading {
+  text-decoration: underline;
+}
+
+.small-photo {
+  height: 150px;
+}
+
+.photo-right {
+  float: right;
+  margin: 30px;
+}
+
+.text-left {
+  width: 70%;
+  padding-top: 20px;
+  padding-left: 50px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 450px) {
+  .text-left {
+    padding-left: 5px;
+    width: auto;
+  }
+
+  .photo-right {
+    display: none;
+  }
+}
