@@ -1,5 +1,5 @@
 body {
-  background-color: #333;
+  background-color: #282828;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
 }
 
 main {
-  color: #ddd;
+  color: #bbb;
   margin-top: 50px;
 }
 
@@ -39,20 +39,23 @@ main {
 }
 
 a {
-  color: #eee;
+  color: #fff;
   text-decoration: none;
+
 }
 
 a:hover {
-  background-color: #444;
+  background-color: #555;
 }
 
 #intro {
   width: 70%;
   padding-top: 20px;
   padding-left: 50px;
+  text-align: justify;
 }
 
 #welcome-message {
+  padding-top: 50px;
   text-align: center;
 }
