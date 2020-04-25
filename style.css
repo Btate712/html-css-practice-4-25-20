@@ -6,9 +6,11 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   width: 100%;
   overflow: hidden;
   background-color: #222;
+  border: 1px solid #ddd;
 }
 
 .nav-link {
@@ -27,4 +29,10 @@ nav {
 main {
   color: #ddd;
   margin-top: 50px;
+}
+
+#face-photo {
+  height: 200px;
+  border-radius: 10px;
+  float: right;
 }
